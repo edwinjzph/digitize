@@ -1,0 +1,379 @@
+.menu_items{
+    height: max-content;
+   
+    
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    border-radius: 20px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95% !important;
+
+}
+.categorie_list p{
+    margin: 0;
+}
+.menu_items img{
+    height: 220px;
+    width: 100% !important;
+  border: none;
+
+    width: 250px;
+    object-fit: cover;
+   
+}
+.menumain img{
+    border-radius: 10px 10px 0 0;
+}
+
+.MuiBadge-colorPrimary{
+    background-color: rgb(239, 79, 95) !important;
+}
+.div_top img{
+    height: 120px;
+}
+.menuitems{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.container_div{
+    width: 100%;
+    max-height: 350px !important;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.categorie_list::-webkit-scrollbar {
+    display: none;
+  }
+.container_div::-webkit-scrollbar {
+    display: none;
+  }
+.menu_items_sub{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    background-color: rgb(3, 144, 3);
+    color: white;
+    padding: 1px 5px 1px 5px;
+    border-radius: 2px;
+}
+.MuiGrid-item {
+    padding-top: 30px !important;
+}
+
+
+.menu_items:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.menu_items p{
+    color: black;
+    font-weight: 600;
+    width: 95%;
+
+    margin-top: 0;
+    margin: auto;
+    text-align: start;
+}
+.order_button{
+    color: black !important;
+
+}
+.div_buttons{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+
+}
+.new1 {
+    width: 100%;
+    border: .2px solid rgb(222, 222, 222);
+  }
+  .light_discription{
+    color: gray !important;
+    background-color: white !important;
+    padding: 0 !important;
+    width: 95%;
+    text-align: start;
+  
+    margin: auto;
+  }
+
+  .div_top{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+  }
+  .bas{
+flex-direction: row;
+align-items: center;
+
+ width: 80%;
+border: 1px solid rgb(197, 197, 197) ;
+
+ justify-content: space-between;
+
+  }
+  #bas2  .MuiGrid-item{
+    padding-top:5px !important;
+  }
+  .bastop{
+    margin-bottom: 20px;
+  }
+.bas img{
+ max-height: 100px;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    width: 220px !important;
+
+}
+.cart_div_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+
+.cart_div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    height: 100%;
+    flex-direction: row;
+}
+.product_name_cart{
+    color: rgb(239, 79, 95) !important;
+    font-weight: 600 !important;
+}
+.product_name_price{
+    font-weight: 400;
+    color: gray !important;
+}
+.product_name_qty{
+    display: flex;
+    margin-top: 10px;
+    font-size: small;
+    
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.product_name_qty span{
+ 
+
+    color: black;
+}
+.plus{
+    color: black;
+    font-size: larger;
+}
+.total_div{
+    position: absolute;
+    bottom: 0px;
+    z-index: 10000;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+}
+.total_sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.flex_image{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: rgb(248, 248, 248);
+}
+.categorie_select2{
+height: 60px;
+width: 60px;
+padding: 20px;
+}
+.total_inner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.total_inner p{
+    font-weight: 600;
+}
+.grand{
+    color: rgb(239, 79, 95);
+}
+.total_div hr{
+    width: 100%;
+}
+.total_div button{
+    color: white !important;
+}
+.order_now {
+ 
+    color: white;
+    width: 95%;
+    text-decoration: none;
+   
+    border-radius: 10px;
+}
+.bas6{
+    padding: 10px;
+    background-color: rgb(239, 79, 95) !important;
+}
+.prepare_div{
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    left:0px;
+}
+.categorie_map{
+    width: 100%;
+    margin: auto;
+}
+.cate_box_main{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.categorie_select{
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255);
+    
+    white-space: nowrap;
+ 
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 10px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+   
+    justify-content: center;
+    
+    border-radius: 10px;
+}
+.selected{
+    color: white;
+    background-color: rgb(239, 79, 95);
+        border: 1px solid rgb(239, 79, 95);
+        color: rgb(255, 255, 255);
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+}
+.categorie_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:  10px !important;
+    width: 100%;
+    max-width: 600px;
+  
+    overflow-x: scroll;
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu_items{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .menu_items:hover{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .menu_items img{
+      
+        width: 100%!important;
+
+            height: 140px;
+    
+    }
+
+    .div_top{
+     
+        width: 95%;
+       
+      }
+      .div_top img{
+height: 80px !important;
+      }
+      .bas{
+        width: 90%;
+      }
+      .bas img{
+        
+     
+        width: 80px !important;
+      }
+      .qty{
+    
+        font-size: smaller;
+      }
+      .plus{
+        font-size: 17px !important;
+      }
+      .product_name_qty{
+gap: 6px;
+      }
+      .total_sub{
+        width: 80%;
+      }
+.container_div{
+    padding-top: 3px;
+   max-height:  350px !important;
+}
+
+.search{
+    width: 95%;
+}
+    .menu_items p{
+        font-size: 13px;
+    }
+    .light_discription{
+        font-size: small;
+    }
+}

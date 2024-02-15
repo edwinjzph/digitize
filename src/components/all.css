@@ -1,0 +1,392 @@
+
+/* menutemplate */
+
+.menutemp{
+    height: 400px;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+    transition: transform .7s; 
+    border: 8px solid #5f5f5f;
+background-color: #5f5f5f;
+}
+.menutemp:hover{
+
+    transform: scale(1.1); 
+
+}
+.slick-prev:before, .slick-next:before{
+    color: #6d2bdc !important;
+}
+.slick-next{
+    right: -10px !important;
+}
+.slick-prev {
+    left: -10px !important;
+}
+.proceed{
+    position: absolute;
+    bottom: 0;
+    transition: hover 1s; 
+width: 90%;
+background-color: #6d2bdc;
+color: white;
+border-radius: 10px;
+margin: 10px;
+
+
+}
+.gradient{
+    background: linear-gradient(270deg,#f21170,#6d2bdc);
+}
+.proceed h4{
+    margin: 0;
+    font-weight: 400;
+    padding: 10px;
+
+}
+.proceed:hover{
+    background: linear-gradient(270deg,#f21170,#6d2bdc);
+}
+.selected2{
+    background-color: black;
+    border: 8px solid black;
+    transform: scale(1.1); 
+}
+.menutemp img{
+    height: 400px;
+    margin: auto;
+   
+    object-fit: cover;
+    border-radius: 10px;
+    width: 200px;
+
+}
+.slick-slider{
+    width: 90%;
+
+    margin: auto;
+}
+.slick-track{
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+margin-top: 50px;
+}
+.select h2,h3{
+    margin: 0;
+    font-weight: 400;
+}
+.select h3{
+   color: #5f5f5f;
+}
+.select{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* addmenu */
+.publish_url{
+    display: flex;
+    align-items: center;
+}
+.publish{
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MuiTextField-root{
+    color: white;
+}
+:root {
+    --rsbs-backdrop-bg: rgba(0, 0, 0, 0.6);
+    --rsbs-bg: #1b1b1b;
+    --rsbs-c:#fff;
+   
+
+    --rsbs-handle-bg: hsla(0, 0%, 100%, 0.14);
+    --rsbs-max-w: 600px;
+    --rsbs-ml: auto;
+    --rsbs-mr: auto;
+    --rsbs-overlay-rounded: 16px;
+  }
+.publish button{
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    background: #6d2bdc;
+    padding: 10px;
+    width: 100%;
+}
+.publish h4,h3,h5{
+    margin: 0;
+}
+.addmenu_sub{
+    width: 60%;
+    text-align: start;
+    margin: auto;
+    margin-top: 30px;
+}
+.addmenu_sub h2{
+    font-weight: 400;
+}
+.image_view{
+ 
+    position: relative;
+
+   
+    border-radius: 5px;
+    
+    height: 150px;
+    border: 1px solid gray;
+    border-style: dashed;
+}
+.image_view img{
+    object-fit: contain;
+    height: 150px;
+
+    width: 100%;
+}
+.upload__image-wrapper{
+    width: 100%;
+    
+}
+.click_on{
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image-item  button {
+    position: absolute !important;
+    top: 0;
+    right:  0;
+    z-index: 10;
+  }
+.details h4,h3{
+    margin: 0px;
+   
+font-weight: 500;
+}
+.details h3{
+    margin-bottom: 12.5px;
+    font-size: 16.5px;
+}
+
+.details{
+
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.flex_details{
+    display: flex;
+    
+width: 100%;
+    gap: 10px;
+    align-items: center;
+   
+    justify-content: space-between;
+    flex-direction: row;
+}
+.details_sub{
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.save_changes{
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 20px;
+   color: white;
+   width: 100%;
+   border-radius: 10px;
+   background: linear-gradient(270deg,#f21170,#6d2bdc);
+   padding: 15px;
+   cursor: pointer;
+  
+}
+.icons span{
+    font-size: x-small;
+}
+.status_div span{
+font-size: 11px;
+}
+.save_changes h4{
+    margin: 0;
+}
+.add_cate{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+.cate_route{
+    margin: auto;
+    color: #6d2bdc;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menuitems_dis{
+    box-shadow: rgba(74, 67, 67, 0.2) 0px 2px 8px 0px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .flex_details{
+        flex-direction: column;
+        
+        gap: 0px;
+        
+    }
+    .details{
+        padding: 0px;
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+        
+    }
+    
+.addmenu_sub{
+    width: 90%;
+}
+
+.order_div{
+    height: 100% !important;
+    width: 100% !important;
+}
+.main_adv_div{
+    flex-direction: column !important;
+    align-items: center;
+}
+}
+.admin_queue span{
+font-size: x-small;
+font-weight: 600;
+
+}
+.cate_box{
+    box-shadow: rgba(146, 146, 146, 0.2) 0px 2px 8px 0px !important;
+}
+.div_top{
+    width: 60% !important;
+}
+
+
+/* Signin */
+
+.signin{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+.sign_first{
+    height: 100%;
+
+margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.signinbox{
+    padding-top: 5%;
+width: 500px;
+margin: auto;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.google {
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    border: .1px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    height: 4em;
+    box-shadow: 0px 0px 15px 0px #b0b0b040;
+ cursor: pointer;
+    color: #5f5f5f;
+} 
+.signinbox p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+.account_btn{
+    padding: 20px;
+    background: -webkit-linear-gradient(301.26deg, #F21170 10%, #6E2CDC 55%);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+.jss5 {
+    width: 100%;
+    margin: 10px 0 20px;
+    text-align: center;
+    line-height: 0.1em;
+    border-bottom: 0.5px solid #DCDCDCCC;
+}
+.jss6 {
+    color: #B1B1B1;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+.button_wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.signin_btn{
+    cursor: pointer;
+    color: #6E2CDC;
+}
+@media screen and (max-width: 600px) {
+    
+.sign_first{
+    width: 90%;
+}
+.signinbox{
+    padding-top: 20%;
+    width: 100%;
+}
+.div_top{
+    width: 90% !important;
+}
+}
